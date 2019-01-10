@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>loop 10-0 EXCEPT 5 </h1>
+<script>
+    // Write a While loop that counts backwards from 10 to 0
+    // Log the current count at the end of each iteration
+    // EXCEPT if the current count is 5
+    // HINT: Use continue
+
+    var num1 = 10;
+
+    //this code does not use continue
+
+    // do
+    //     {
+    //         if(num1 != 5)
+    //         {
+    //             console.log(num1);
+    //         }
+    //         num1 --
+    //     }while(num1 >=0);
+
+    //This code below uses continue
+
+    do
+        {
+            if(num1 === 5)
+            {
+                num1 --;
+                continue
+            }
+            else
+                {
+                    console.log(num1);
+                }
+            num1 --;
+
+        }while(num1 >=0);
+    //did you make a header??!?
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<h1>q to quit!?!</h1>
+<body>
+<script>
+    // Asks the user Enter a word.
+    // Enter 'q' to quit.
+    // Create a while loop that will not quit until they enter 'q'.
+    //     HINT: Use true condition so loop continues forever and break to exit the loop
+
+    var user_word = prompt("what is your word?");
+
+                //more then just quit at q
+
+    //This code below only requires q to quit with out more expansion will constantly ask for quest?
+    // need to use true condition
+
+    // while(user_word != "q")
+    //     {
+    //         user_word = prompt("What is your quest?"
+    //         + "press q to quit");
+    //
+    //
+    //     }
+    
+    //This code uses true expressing and sets q to equal true, simpler way to do it?
+
+    while(user_word !== true)
+    {
+
+        user_word = prompt("what is your quest?");
+        user_word = prompt("continue? c = continue q = quit");
+
+        if(user_word === "q")
+        {
+            user_word = true;
+        } else
+            {
+                continue;
+            }
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
